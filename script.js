@@ -80,7 +80,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             if (telegramUserId) {
                 // Bot username'ini o'zingiznikiga almashtiring!
-                const botUsername = 't.me/nftkonkursbot'; // !!! BOTINGIZNING USERNAME'INI KIRITING !!!
+                const botUsername = 'nftkonkursbot'; // !!! BOTINGIZNING USERNAME'INI KIRITING !!!
                 closeButton.innerHTML = "Botga qaytish ✅";
                 closeButton.onclick = () => {
                     // Botga maxsus /start buyrug'i yuborish orqali foydalanuvchi tasdiqlanganini bildiramiz
